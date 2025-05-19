@@ -15,10 +15,17 @@ public class testesoma : MonoBehaviour
         B = 12;
 
 
-        C = A + B;
+        //C = A + B;
+        C = Soma(A, B);
+        
         Debug.Log(C);
     }
 
+    int Soma(int a, int b)
+    {
+        return a + b;
+    }
+    
     // Update is called once per frame
     void Update()
     {
