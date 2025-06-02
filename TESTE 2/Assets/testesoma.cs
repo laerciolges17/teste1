@@ -16,7 +16,7 @@ public class testesoma : MonoBehaviour
         return c;
     }
 
-    void mairQue(int a, int b)
+    void MaiorQue(int a, int b)
     {
         if (a > b)
         {
@@ -67,12 +67,13 @@ public class testesoma : MonoBehaviour
          }
          */
 
-        MairQue(A,B);
-        MairQue(23,3);
-        MairQue(1,3);
-        MairQue(1,1);
+        MaiorQue(A, B);
+        MaiorQue(23, 3);
+        MaiorQue(1, 3);
+        MaiorQue(1, 1);
+    }
 
-        // Update is called once per frame
+    // Update is called once per frame
         void Update()
         {
 
