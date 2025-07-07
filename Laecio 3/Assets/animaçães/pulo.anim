@@ -6,7 +6,7 @@ AnimationClip:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: andando
+  m_Name: pulo
   serializedVersion: 7
   m_Legacy: 0
   m_Compressed: 0
@@ -20,11 +20,9 @@ AnimationClip:
   m_PPtrCurves:
   - serializedVersion: 2
     curve:
-    - time: 0
-      value: {fileID: 2575815558344410250, guid: 16e31fbd60682f8408aa3ac193a89645, type: 3}
-    - time: 0.33333334
+    - time: 0.016666668
       value: {fileID: -5481721873124560896, guid: 16e31fbd60682f8408aa3ac193a89645, type: 3}
-    - time: 0.6666667
+    - time: 0.083333336
       value: {fileID: -5481721873124560896, guid: 16e31fbd60682f8408aa3ac193a89645, type: 3}
     attribute: m_Sprite
     path: 
@@ -48,7 +46,6 @@ AnimationClip:
       isIntCurve: 0
       isSerializeReferenceCurve: 0
     pptrCurveMapping:
-    - {fileID: 2575815558344410250, guid: 16e31fbd60682f8408aa3ac193a89645, type: 3}
     - {fileID: -5481721873124560896, guid: 16e31fbd60682f8408aa3ac193a89645, type: 3}
     - {fileID: -5481721873124560896, guid: 16e31fbd60682f8408aa3ac193a89645, type: 3}
   m_AnimationClipSettings:
@@ -56,7 +53,7 @@ AnimationClip:
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 0.68333334
+    m_StopTime: 0.1
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
