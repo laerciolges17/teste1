@@ -1,5 +1,6 @@
 using UnityEngine;
 
+using UnityEngine;
 public class player : MonoBehaviour
 {
   public float velocidade = 40;
@@ -14,8 +15,8 @@ public class player : MonoBehaviour
     void Start()
     {
          sprite = GetComponent<SpriteRenderer>();
-                   rb = GetComponent<Rigidbody2D>();
-                   animator = GetComponent<Animator>();
+         rb = GetComponent<Rigidbody2D>();
+         animator = GetComponent<Animator>();
     }
 
 
@@ -37,7 +38,7 @@ public class player : MonoBehaviour
                     andando = true;
                 }
         
-                if (Input.GetKeyDown(KeyCode.Space))
+                if (Input.GetKeyDown (KeyCode.Space) && noChao == true)
                 {
                     rb.AddForce(new Vector2(0,forcaDoPulo), ForceMode2D.Impulse);
                 }
