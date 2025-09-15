@@ -6,15 +6,11 @@ public class Chave : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.gameObject.CompareTag"(player"))
+        if (other.gameObject.CompareTag("Player"))
         {
-            
+            textoDeVitoria.SetActive(true);
+            gameObject.SetActive(false);
         }
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    
 }
