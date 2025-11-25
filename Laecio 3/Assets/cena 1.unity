@@ -14479,11 +14479,11 @@ Transform:
   m_GameObject: {fileID: 1128704829}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.4, y: -0.1, z: -10}
+  m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 2655335169464255693}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1128704834
 MonoBehaviour:
@@ -14624,7 +14624,7 @@ TilemapRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_ChunkSize: {x: 32, y: 32, z: 32}
-  m_ChunkCullingBounds: {x: 0.16666669, y: 0.16666669, z: 0}
+  m_ChunkCullingBounds: {x: 0.021739125, y: 0.021739125, z: 0}
   m_MaxChunkCount: 16
   m_MaxFrameAge: 16
   m_SortOrder: 0
@@ -59017,9 +59017,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects: []
+    m_AddedGameObjects:
+    - targetCorrespondingSourceObject: {fileID: 6346630805074796157, guid: 704c7d88c294c6d40aa31c364996fd24, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1128704833}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 704c7d88c294c6d40aa31c364996fd24, type: 3}
+--- !u!4 &2655335169464255693 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 6346630805074796157, guid: 704c7d88c294c6d40aa31c364996fd24, type: 3}
+  m_PrefabInstance: {fileID: 2655335169464255692}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -59036,4 +59044,3 @@ SceneRoots:
   - {fileID: 1796859115}
   - {fileID: 1461969365}
   - {fileID: 2655335169464255692}
-  - {fileID: 1128704833}
